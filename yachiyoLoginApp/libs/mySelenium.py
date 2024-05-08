@@ -74,7 +74,7 @@ def send_keys(driver, loginInfo, css):
     
 def start_google_chrome(url):
     
-    os.environ['https_proxy'] = 'http://10.101.1.2:8080'
+    os.environ['https_proxy'] = 'http://10.103.1.2:8080'
     
     options = ChromeOptions()
     options.add_argument('--blink-settings=imagesEnabled=false')                    # 画像の非表示
@@ -111,8 +111,8 @@ def start_google_chrome(url):
 
 if __name__ == '__main__':
     
-    # driver, actionChains = start_google_chrome_with_port('https://google.com')
+    driver, actionChains = start_google_chrome_with_port('https://google.com')
     
-    driver = start_google_chrome('https://google.com')
+    # driver = start_google_chrome('https://google.com')
     
     # driver.quit()
