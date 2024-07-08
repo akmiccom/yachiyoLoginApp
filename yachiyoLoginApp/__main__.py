@@ -13,9 +13,9 @@ def main():
     
     driver.maximize_window()
     
-    open_gmail(driver)
+    # open_gmail(driver)
     
-    open_calendar(driver)
+    # open_calendar(driver)
     
     open_guest_wifi(driver)
     

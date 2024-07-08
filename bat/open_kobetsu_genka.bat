@@ -1,0 +1,1 @@
+c:/Users/JY810251/python/yachiyoLoginApp/.venv/Scripts/python.exe c:/Users/JY810251/python/yachiyoLoginApp/yachiyoLoginApp/open_kobetsu_genka.py
